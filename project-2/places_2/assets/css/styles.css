@@ -1,0 +1,144 @@
+body {
+	height: 100%;
+	padding: auto;
+	font-family: 'IBM Plex Sans', sans-serif;
+	background: #B0D6F9;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	box-sizing: border-box;
+
+}
+
+ul {
+	list-style: none;
+}
+
+p {
+	font-weight: 400;
+	font-size: 11pt;
+	color: #393D3C;
+	line-height: 23px;
+}
+
+.nav{
+	margin-top: 20px;
+	margin-right: 18px;
+	padding-left: 40px;
+}
+
+li {
+	list-style: none;
+	float: right;
+	padding-top: 15px;
+	padding-right: 30px;
+	font-size: 11pt;
+	color: #000;
+}
+
+.title {
+	font-size: 55pt;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+
+img {
+	width: 310px;
+	height: 310px;
+}
+
+.information-1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding: 15px;
+	text-align: left;
+	font-weight: 400;
+	font-size: 11pt;
+	color: #393D3C;
+	line-height: 23px;
+	float: left;
+}
+
+.information{
+	font-weight: 400;
+	font-size: 11pt;
+	color: #393D3C;
+	line-height: 23px;
+	margin-top: 360px;
+	margin-left: 0;
+	float: left;
+	height: 310px;
+}
+
+.content {
+	position: absolute;
+}
+
+.next-place {
+	list-style: none;
+	float: right;
+	font-size: 11pt;
+	text-align: center;
+	font-weight: 700;
+	margin-top: 560px;
+	margin-right: 50px;
+	padding-left: 40px;
+	margin-bottom: 20px;
+}
+
+/*GRID*/
+.grid-base {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+/*
+.grid-base .col {
+	height: 3000px;
+}*/
+
+.col {
+/*	border: 1px dashed rgba(255,0,0,0.3);
+*/	display: inline-block;
+	float: left;
+}
+
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+
+.meta-1{ margin-left:8.33%;}
+.meta-2{ margin-left:16.66%;}
+.meta-3{ margin-left:25%;}
+.meta-4{ margin-left:33.33%;}
+.meta-5{ margin-left:41.66%;}
+.meta-6{ margin-left:50%;}
+.meta-7{ margin-left:58.33%;}
+.meta-8{ margin-left:66.6%;}
+.meta-9{ margin-left:75%;}
+.meta-10{ margin-left:83.33%;}
+.meta-11{ margin-left:91.66%;}
+.meta-12{ margin-left:100%;}
