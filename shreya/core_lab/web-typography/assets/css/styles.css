@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #A2B7B7;
+}
+
+img {
+	width: 97%;
+	height: 100%;
+	opacity: 0.60;
+	border-style: solid;
+	border-width: 20px;
+}
+
+.title {
+	font-family: "Bangla MN", sans-serif;
+	font-weight: bold;
+	font-size: 60pt;
+	position: absolute;
+	bottom: -880px;
+	left: 50px;
+}
+
+.sub-title {
+	font-family: "Bangla MN", sans-serif;
+	font-weight: normal;
+	font-size: 30pt;
+	position: absolute;
+	bottom: -915px;
+	left: 55px;
+}
+
+.information {
+	font-family: "Bangla MN", sans-serif;
+	font-weight: normal;
+	font-size: 11pt;
+	position: absolute;
+	top: 55px;
+	right: 55px;
+	max-width: 300px;
+	text-align: right; 
+}
