@@ -68,6 +68,20 @@ img {
 	letter-spacing: 1px;
 	font-family: 'Oswald', sans-serif;
 }
+
+.project-2 {
+	font-size: 18pt;
+	color: #5F9760;
+	text-align: left;
+	text-transform: uppercase;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-top: 5px;
+	letter-spacing: 1px;
+	font-family: 'Oswald', sans-serif;
+}
+
+
 /*.current-project {
 	width: 250px;
 	height: 250px;
