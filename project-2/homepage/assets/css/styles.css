@@ -1,0 +1,65 @@
+body {
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.title {
+	color: #000;
+	font-size: 144px;
+	text-align: center;
+	line-height: 160px;
+	position: relative;
+	top: -1060px;
+	z-index: 1;
+}
+
+.title:hover {
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.sub-title {
+	color: #000;
+	font-size: 30px;
+	text-align: center;
+	line-height: 60px;
+	position: relative;
+	top: -1060px;
+}
+
+img {
+	width: 100%;
+	z-index: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+
+.nav{
+	margin-top: 20px;
+	margin-right: 18px;
+	padding-left: 40px;
+}
+
+.nav:hover {
+	font-weight: 700;
+	cursor: pointer;
+}
+
+li {
+	list-style: none;
+	float: right;
+	padding-top: 15px;
+	padding-right: 30px;
+	font-size: 11pt;
+}
+
+li:hover{
+	cursor: pointer;
+}
+
+.content {
+	position: absolute;
+}
